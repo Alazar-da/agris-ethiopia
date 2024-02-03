@@ -1,0 +1,119 @@
+@keyframes anim {
+  0%   {left:-100%;}
+  100% {left:0px;}
+}
+
+.wellcome-anim{
+  position: relative;
+/*   opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 1s ease, transform 1s ease; */
+   opacity: 0;
+  position: relative;
+  animation-name: anim;
+  animation-duration: 2.0s;
+}
+
+.wellcome-anim.test{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animated-text {
+  opacity: 0;
+/*   transform: translateY(100px);
+  transition: opacity 1s ease, transform 1s ease; */
+/*   transform: translateY(100px);
+  transition: opacity 1s ease, transform 1s ease; */
+}
+
+.animated-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* contact start */
+.contact {
+    opacity: 0;
+    transform: rotate(20deg);
+    transition: opacity 1s ease, transform 2s ease;
+  /*   transform: translateY(100px);
+    transition: opacity 1s ease, transform 1s ease; */
+  }
+  
+  .contact.vis {
+    opacity: 1;
+    transform: translateX(0);
+  }
+/* contact */
+
+/* service start */
+@keyframes sanim {
+    0%   {transform: scale(0.3,0.3);}
+   
+    100% {transform: scale(1,1);}
+  }
+  
+  .service{
+  /*   opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease, transform 1s ease; */
+    position: relative; 
+    opacity: 0;
+    transform: scale(0.3,0.3);
+    transition: opacity 1s ease, transform 1s ease;
+     
+  
+
+ /*    animation-name: sanim; */
+    
+
+  }
+  
+  .service.vs {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+/* service end */
+
+
+
+
+.text-non {
+  opacity: 0;
+  transition: opacity 1s ease;
+ 
+}
+
+.text-opa {
+  opacity: 1;
+ 
+}
+
+
+
+
+
+
+a{
+    color: white;
+  }
+  a:hover{
+    color: black;
+    border-color:white ;
+  }
+  .title::after{
+content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #007A7B;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  }
+
+  .clr{
+    color: #fff;
+  }

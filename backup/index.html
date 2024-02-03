@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgrisEthiopia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<script src="app.js" defer></script>   
+
+<style>
+a{
+    color: white;
+  }
+  a:hover{
+    color: black;
+    border-color:white ;
+  }
+  .title::after{
+content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #007A7B;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  }
+
+  /*.animate__animated{
+    opacity: 0;
+  
+  }
+.animate__backInRight,.animate__backInLeft,.animate__backOutUp,.animate__bounceInUp{
+  opacity: 1;
+}
+.scroll-animation {
+    opacity: 1;
+    transform: translatey(0);
+}*/
+</style>
+</head>
+<body style="background-color: #f4f4f4; font-family: cursive, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#007A7B;">
+        <a class="navbar-brand mr-5" href="#"><img class="" src="ecommerce/Agris.png" style="height: 45px; width: 100px;" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="collapsibleNavbar">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#service">Service</a>
+        <a class="nav-link" href="#team">Teams</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        
+        <li style="list-style: none;" class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                login
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="portal/login.php">Portal</a>
+                <a class="dropdown-item" href="ecommerce/index.php">Ecommerce</a>
+              </div>
+        </li>
+
+        
+            
+          
+        </div>
+    </nav>
+
+    <main>
+        <div id="home" class="container-fluid main-section px-lg-5 mb-5" style="background-color: #00ACAB;">
+            <div class="row d-flex justify-content-center pt-lg-3">
+                <div class="col-lg-6 d-flex justify-content-center py-lg-3">
+                    <img src="images.png" alt="AgrisEthiopia" class="img-fluid">
+                </div>
+                <div class="col-lg-6 py-md-3 mt-3 text-white justify-content-center px-md-5 text-lg-start">
+                        
+                            <div class="row d-flex justify-content-start">
+                                <div class="w-50 animate__animated">
+                                    <h5 class="title text-center">Mission</h5>
+                                <p class="pl-3 pt-2">Our company's mission is to help farmers connect with customers and expand their markets through 
+                                  advanced greenhouse technologies and a user-friendly ecommerce platform.</p>
+                                </div>
+                                
+                            </div>
+
+                            
+                            <div class="row d-flex justify-content-end">
+                                <div class="w-50 animate__animated">
+                                    <h5 class="title text-center">Vision</h5>
+                                <p class="pl-3 pt-2">We envision a world where every farmer has access to the latest technology
+                                   in greenhouse farming and can market their products to a larger audience through our ecommerce platform.</p>
+                                </div>
+                                
+                            </div>
+                 
+                            
+                            <div class="row d-flex justify-content-start">
+                                <div class="animate__animated">
+                                    <h5 class="title text-center">Goals</h5>
+                                    <ol class="pl-3 pt-2">
+                                      <li class="pb-1">
+                                        To develop and offer affordable and sustainable greenhouse technology to farmers, promoting efficiency and quality in their crops.
+                                      </li>
+                                      <li class="pb-1">To constantly evolve our ecommerce platform, providing a reliable and efficient connection between farmers and customers globally.</li>
+                                      <li class="pb-1">To expand our reach and increase customer purchases, thereby creating more opportunities for farmers from different areas to sell their produce.</li>
+                                      <li class="pb-1">To reduce the carbon footprint of greenhouse agriculture by investing in eco-friendly and energy-saving solutions.</li>
+                                      <li class="pb-1">To establish a network of strategic partners with complementary businesses and organizations committed to our vision.</li>
+                                    </0l>
+                                    
+                                </div>
+                               
+                            </div>
+                </div>
+            </div>
+        </div>
+
+
+  
+            <div id="about" class="container-fluid mt-5">
+                <div class="row justify-content-center pt-5 mt-5">
+                    <div class="col-8 d-flex flex-column animate__animated">
+                        <h2 class="text-center title">About Us</h2>
+                        <p class="text-justify pt-2">"We are a group of engineers who are working on building a company which is going to play an essential role in supporting sustainable agriculture and fostering a closer connection between farmers and their customers. 
+                          By providing innovative solutions to help farmers succeed, we help to build a healthier, more vibrant future for everyone."</p>
+                    </div>
+                </div>
+            </div>
+      
+      
+        <div id="service" class="container mt-5 mb-5 justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title text-center">Service</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between px-3 mt-4">
+                <div class="col-lg-5 animate__animated col-md-6 mt-2 border rounded bg-white d-flex p-5  flex-column justify-content-center">
+                    <div class="pt-2 text-center"><i style="font-size: 2rem; color: #007A7B;" class="bi bi-cart-fill"></i></div>
+                    <h3 class="mt-3 text-center">Ecommerce</h3>
+                    <p class="text-justify pt-2 text-center">Our website offers a convenient platform for farmers to showcase their products and connect with interested customers.
+
+                    </p>
+                </div>
+                <div class="col-lg-5 animate__animated col-md-6 mt-2 border p-5 rounded bg-white d-flex flex-column justify-content-center">
+                    <div class="pt-2 text-center"><i style="font-size: 2rem; color: #007A7B;" class="bi bi-house-gear-fill"></i></div>
+                    <h3 class="mt-3 text-center">GreenHouse</h3>
+                    <p class="text-justify pt-2 text-center">We provide farmers with custom-built structures that are designed to maximize crop yield and minimize environmental impact. 
+                      By utilizing the latest technologies in greenhouse design and construction,
+                       we help farmers to optimize their growing processes and ensure the longevity of their operations.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="team" class="container-fluid mt-5 mb-5 justify-content-center">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title text-center">Our Team</h2>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col d-flex justify-content-center mt-2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="pexels-jannis-knorr-2933243.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Alazar Damena</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa, eius molestias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center mt-2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="pexels-jannis-knorr-2933243.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Alazar Damena</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa, eius molestias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center mt-2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="pexels-jannis-knorr-2933243.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Alazar Damena</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa, eius molestias.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center mt-2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="pexels-jannis-knorr-2933243.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Alazar Damena</h5>
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam culpa, eius molestias.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="contact" class="container mt-5">
+            <div class="row">
+              <div class="col-md-5 d-flex justify-content-center">
+                <div class="mt-md-5 pt-md-5">
+                  <div class="pt-2 text-center animate__animated"><i style="font-size: 5rem; color: #007A7B;" class="bi bi-envelope-fill"></i></div>
+                </div>
+              </div>
+              
+          
+              <div class="col-md-6">
+                <div class="row mb-3">
+                  <div class="col-12 text-center bolder">
+                    <h3>get in touch</h3>
+                  </div>
+                </div>
+                <form action="#" method="post">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control bg-light" placeholder="Name" id="name">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row"> 
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input type="email" class="form-control bg-light" placeholder="Email" id="email">
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control bg-light" placeholder="Subject" id="subject">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <textarea class="form-control bg-light" rows="5" placeholder="Message" id="comment"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input type="submit" name="submit" value="submit" style="color: white; background-color: #007A7B;" class="form-control" >
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer class="mt-5" style="background-color: #00ACAB;">
+        <div class="container-fluid text-white">
+            <div class="row justify-content-center pt-3">
+                <div class="col-md-4 col-10 text-center">
+                    <h5 class="pl-5">Important links</h5>
+                    <ul style="list-style-type: none;">
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="aboutus.html">Terms and Condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-10 text-center">
+                    <h5 class="pl-5">Catagories</h5>
+                    <ul style="list-style-type: none;">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#team">Teams</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-9 text-center">
+                    <a class="nav-link d-inline" href="#"><i style="font-size: 1.5rem;" class="bi bi-facebook"></i></a>
+                    <a class="nav-link d-inline" href="#"><i style="font-size: 1.5rem;" class="bi bi-instagram"></i></a>
+                    <a class="nav-link d-inline" href="#"><i style="font-size: 1.5rem;" class="bi bi-envelope-at-fill"></i></a>
+                    <a class="nav-link d-inline" href="#"><i style="font-size: 1.5rem;" class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-3">
+                <div class="col-8">
+                    <p class="text-center"><i class="bi bi-c-circle"></i> 2023 Agris.et E-Commerce</p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
